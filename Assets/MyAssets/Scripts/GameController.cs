@@ -1,18 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;//引入GUI
 using System.Collections;
-
 public class GameController : MonoBehaviour {
-
-	// Use this for initialization
+	// 显示文字
 	public Text buildingName;
-
-	void Start () {
-	   
-	}
-
+	//画布上显示文字
 	public void showBuildingName(string name){
 		buildingName.text =  name;
 	}
-
 }
